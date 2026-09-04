@@ -1,0 +1,230 @@
+ServiceNow Development
+
+HTML -Hypertext markup language  -  structure / blueprint structuring the content - few tags - 1week
+
+CSS - Cascading stylesheet - Interactive -few properties - 1 week(min 3 to 4 days)
+
+JavaScript(JS) - logic  or behaviour - every thing from basic - 6weeks Total 45 days(including html+css+js)
+
+
+Entire course duration -  1.5(max & min 1 month)  2 months if you guys practice to get a good grip
+                           3 t0 4 months(if aren't practicing regularly it depends up on person to person) 
+
+
+
+ServiceNow We have two types scripts
+
+
+ Client scripts -- end user (browser lvl)
+
+
+Server Scripts -- backend (On database)
+sub topics
+
+Business rules - 4 types
+
+Glide Ajax  and script include - bridge btw Client side and server side
+
+
+ Date:  2/9/26
+    
+ HTML Foundation:      
+
+
+ HTML: Hypertext markup language
+
+
+what is HTML:HTML is a markup language  --- 
+
+it defines the structure of a webpage / used to display content over the web page
+
+
+What is the structure of HTML:
+
+in HTML Everything is  consider as tags  <(open tag / open angular bracket)   />(close tag/ closed angular bracket)
+
+Structure of html
+
+<!DOCTYPE html> -- Tells the browser the document type is html
+
+<html> -- root element of the html
+ 
+   <head> -- where we can store information about our webpage
+     <title>
+              we write the name of the browser tab
+     </title>
+     metadata-information
+     CSS references
+     JS references      
+
+   </head>
+
+         <body> - Store the data which is displayed over the browser where a end can see
+          <h1></h1>
+          <p></P>
+          <img>
+          <a>    
+
+         </body>
+
+</html> 
+
+ What are tags --- 
+
+            -->  Tag is like instruction 
+
+         <h1></h1>.....<h6></h6>   - heading tags 
+
+         <p></p> .... paragraph tag
+           <a>---anchor tag   it contains an attribute (href)--- it tells the browser where to navigate
+          <img>  -- it also contains an attribute src(source)
+           
+
+Element -  <h1>Zoom</h1> --- it defines the  entire structure
+   
+
+Attribute --- Which is written inside a tag it contains a value(links)
+
+
+             <a  href =" google.com">Google</a>
+
+          href =it is saying the browser take me to that page  google.com--> value
+
+       link text that displayed on the page 
+
+
+
+
+Features--
+
+       Html is a platform independent - 
+       Html is easy to learn
+       Html creates the webpage structure
+       It supports multimedia- display , video, audio
+       Creates hyperlinks
+       Work with CSS and JS
+       Support web development
+
+
+
+IDE - integrated Development Environment   
+
+    VS Code  - IDE  
+
+
+Installation --  https://code.visualstudio.com/download?_exp_download=fb315fc982  / Vs code
+
+       Install vs code based on your OP(operating system)
+
+  
+  Date: 3/09/26
+
+
+    --> We have written our first html Code
+
+    --> <!-- --> comments to comment out code / to specify the line for better understanding
+    --> h1 to h6
+        <h1>Welcome to ServiceNow</h1>   <!--h1 is used for heading -->
+        <h2>Welcome to ServiceNow</h2>
+        <h3>Welcome to ServiceNow</h3>
+        <h4>Welcome to ServiceNow</h4>
+        <h5>Welcome to ServiceNow</h5>
+        <h6>Welcome to ServiceNow</h6>
+        
+   --> paragraph tag <p></p> --- to display  more content  a paragraph
+   --> <a href ="you have to paste the website link where you want to navigate"></a>--- creates hyperlinks
+   --> <img src="Paste the address of the image">-- to display the images on a web page we use img tag   
+
+
+   --> Date-04/09/26  
+      
+
+      --> Creating a list
+
+             <ul></ul> -- unordered list -- when the sequence is not important
+             <li>-- list items  
+             <ol></ol> -- ordered list -- when the sequence is matter we go with ordered list
+             ex: 
+                 <ol>
+                 <li>Apple</li>
+                 <li>Pineapple</li>
+                 </ol>
+            Output is  :  
+            1Apple
+            2Pineapple
+
+                 <ul>
+                 <li>Apple</li>
+                 <li>Pineapple</li>
+                 </ul>
+
+            Output:
+             .Apple
+             .pineapple
+
+
+      ----> Create a table 
+           <table>
+           <tr> -- To create a row inside a table we use tr
+           <th></th> -- table heading / column heading 
+           </tr>
+           <td> --- table cell/table data
+            
+           </table>
+            border -- it add a border around the rows
+      
+      ---> Creating a form
+           
+
+             <form>
+                    <label></label> -- The field that you want to display
+                    <input type=''> -- type may be a text , img
+                    <button></button> -- creates a button
+             <form>
+
+             <br>-- break the line / start from the next line
+     
+      
+
+    
+
+
+       
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

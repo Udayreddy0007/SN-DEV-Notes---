@@ -1,0 +1,22 @@
+
+
+---Date - 4/09/26
+
+       CSS--  Cascading Stylesheet 
+
+         Used for styling / Decortions / alignment / Change the font / colors/ width,padding ---etc
+
+
+         in CSS Every tag is called as a properties , selectors 
+         color , background-color , text-color , text-align , align-item ------ etc
+
+
+    ---> CSS can be written in three types
+
+       1.Inline CSS -- which is written inside a html tag
+       2.Internal CSS  -- Is declared inside the head by using <style></style>   
+       3.External CSS -- we create a separte file Same like html we store the file with .css extension and we link the css file inside the html 
+       head tag using a link tag 
+
+       <link rel ="stylesheet"  href ="style.css">
+    
