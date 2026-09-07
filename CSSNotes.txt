@@ -19,4 +19,86 @@
        head tag using a link tag 
 
        <link rel ="stylesheet"  href ="style.css">
-    
+
+---Date - 07/09/26
+   -- 
+    CSS SELECTORS:
+
+         Definition:
+                A CSS selector is used to select HTML elements that you want to style.
+
+
+                Syntax: example
+                     
+                     h1--- HTML element
+                     { -- flower brackets  
+                          
+                           color: blue;   --- property : value;            
+                        
+                         } 
+         
+         +-------------------+--------+------------------+-----------------------------+
+         | Selector          | Symbol | Example          | Selects                     |
+         +-------------------+--------+------------------+-----------------------------+
+         | Element Selector  | None   | p                | All <p> elements            |
+         | Class Selector    | .      | .high            | Elements with class "high"  |
+         | ID Selector       | #      | #title           | Element with ID "title"     |
+         | Universal Selector| *      | *                | All HTML elements           |
+         | Group Selector    | ,      | h1, p            | Multiple HTML elements      |
+         +-------------------+--------+------------------+-----------------------------+
+         
+         Examples:
+         
+         1. Element Selector
+
+            p {
+                color: red;
+            }
+         
+         2. Class Selector
+
+            .high {
+                color: red;
+            }
+         
+         3. ID Selector
+
+            #title {
+                color: blue;
+            }
+         
+         4. Universal Selector
+
+            * {
+                margin: 0;
+            }
+         
+         5. Group Selector
+         
+            h1, h2, p {
+                font-family: Arial;
+            }
+
+
+ Colors - rgb - red , green, blue   - we get multiple different colors  
+
+
+  ----> Internal CSS :
+                        which is also written inside the html code but declared inside head tag
+
+                        syntax: 
+                            <style>
+
+                                 h1
+                                      {
+                                        color: green;
+
+                                      } 
+                                </style>
+ ---->External CSS :
+
+                    instead of writing everything inside html we gonna create a separate file with .css extension
+                    and we link that file inside html code in head
+
+                
+             
