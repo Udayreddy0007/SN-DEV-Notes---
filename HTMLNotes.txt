@@ -1,6 +1,6 @@
 ServiceNow Development
 
-HTML -Hypertext markup language  -  structure / blueprint structuring the content - few tags - 1week
+HTML -Hypertext markup language  -  structure / blueprint structuring the content - few tags - 1week(2 to 3 days min with css 4 days)
 
 CSS - Cascading stylesheet - Interactive -few properties - 1 week(min 3 to 4 days)
 
