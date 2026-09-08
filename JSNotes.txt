@@ -1,0 +1,80 @@
+
+Date - 08/09/26
+
+--> What is JavaScript?
+    
+    JavaScript (JS) is a programming language / server side and client side programming used to make web applications/ web pages  dynamic, 
+    interactive, and capable of performing logic and calculations.
+
+--> program :
+          
+            A set of instructions 
+
+--> instructions:
+               
+                steps followed to perform task
+
+--> How we use js on SN :
+                         
+                         JS is extensively used to perform business logic, to manage the form behaviour , data processing and validation
+
+
+---> Features of jS:
+       
+                -- make interactive 
+                -- light weight code
+                -- platform independent language(it doesnt rely on a platform ws , mac ,linux)
+                       (it can be run on browser or on a server)
+
+               -- object - oriented language
+               --    functions allows  reusable block of code
+               -- case sensitive language 
+                   ex: uday and Uday since the name is same but treated as different
+              -- for naming convention we use camelCase
+                 ex: studentInfo
+
+              
+                       
+In simple words JS tells a web application what to do when something happens         
+
+
+JS can written in two ways 
+
+   --> internal jS  : we have to write the logic inside the html body tag using <script></script>
+
+   <script>
+
+       </script>
+
+    -->  External JS: we write logic/code inside a separate file and it should be stored with .js  extenstion
+         
+          <script src="scripts.js"></script>  -- src is source and scripts.js is file name you
+          have to write your file name
+
+-->  JS Overview :
+          What is jS
+          data and data types
+          variables and rules 
+          control statements
+          looping control statements
+          notification key words 
+          functions
+          objects
+          array 
+          methods
+
+---> SN Scripting  - Overview
+      
+      client scripts
+      Server scripts
+      Glide APIs
+      glide methods and objects
+      glide ajax 
+      Script include
+      business rules
+      
+
+
+
+     
+    
