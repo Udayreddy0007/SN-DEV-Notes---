@@ -74,7 +74,83 @@ JS can written in two ways
       business rules
       
 
+--Date:9/09/26
 
 
-     
+--> What is a data
+           
+           - a piece of information is called as data 
+           may be a name , phno, email addresss
+
+           ex: name = "uday";
+                 age = 18;
+
+ -->What is a data type 
+    
+     In JS we have 5 data types
+        
+        --> String  : Group of characters is called as string  andd the data will be represented using ""(double quotes)
+                      combiantion of characters and number is also called string
+                      ex:  Id : "21M91A0511"
+                     ex:   name = "uday";
+                       ex: name   "name"
+        
+        --> int   : It stores whole number / numerical numbers
+                   ex: 
+                       contact no: 900000396
+                          age = 18;
+             
+        --> decimal : the number which double precision 
+                   ex:
+                        percentage = 98.99
+        --> float : the number which as one precesion
+                ex: population: 1.4
+                        ex:
+                           total bill = 1000.000000045637;
+
+        --> Boolean : true/ false in computer lang 0 /1
+                       ex: if a person age is 18 he/she is eligable to vote = true;
+    
+    --> In Js the printing statement is
+
+        -->Console.log()
+
+   ---> Printing statement in SN 
+         --> gs.info() , gs.print();
+
+   ---> we will be using browser console to practice or write our jS
+
+--> Variable in JS(javascript)
+    --> Variable container which stores the type of data / Variable name which store the data
+
+        ex:  employee = "uday";  --- varaible name = value / data;
+          
+        -->Rules :
+        -- Varaible name can be starts or declared with _ and $(excpet dollar symbols)
+        -- variable name cannot be start with a number
+        --JS use camelCase for naming convention
+        ex:
+           studentName 
+           employeeId
+        --- if a varaiable contains any spaces we are not going to consider it as varaible name 
+           student Name   X
+           studentName   correct way 
+        --  We cannot take default / predefined names as variable Name
+            ex : for  , if , count ....etc
+
+----> Variable key words 
+
+          there are 3b types of keywords in js
+           --let: let we can call it as block scope upadtion is posssible but redecalration of the value is not possible
+              ex:  let num = 19;
+           --const : it is alsp a block scoped variable key words
+              ex: redecalration and updation 
+              const pi = 3.14;
+              const max_speed = 120;
+
+           --var: it is global scope variable keyword
+                           
+                           var value1 = 18;
+                           var value2 = 19;
+
     
