@@ -140,7 +140,7 @@ JS can written in two ways
 
 ----> Variable key words 
 
-          there are 3b types of keywords in js
+          there are 3 types of keywords in js
            --let: let we can call it as block scope upadtion is posssible but redecalration of the value is not possible
               ex:  let num = 19;
            --const : it is alsp a block scoped variable key words
