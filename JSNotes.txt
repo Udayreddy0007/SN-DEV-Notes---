@@ -156,3 +156,60 @@ JS can written in two ways
                            
                            var value1 = 18;
                            var value2 = 19;
+
+ --> Date : 10/09/26
+
+     ex:  let,const,var
+
+        --> let marks = 90;
+            let marks = 95;
+            console.log(marks); // error 
+
+             let marks = 90;
+             marks = 95;
+             console.log(marks); // output is 95
+
+        -->  const marks = 90;
+                  marks = 95;
+             console.log(marks); // output error
+             
+             const a = 10;
+             console.log(a); // output is 10
+
+         -->   let marks = 90;
+               let marks = 95;
+               console.log(marks);
+
+
+                                   
+   --> Operators: this are basically used to perform calculations/ checking the conditions 
+          
+           --before we begin lets understand operators and operands
+     
+           -- operator : it is symbol defines what   operations  to be performed
+               ex: + , - ,/ , % , *
+           
+            -- operand : An operand is the value or variable on which an operator performs an operation.  
+                   ex: a = 10;
+                        b = 20;
+                       a + b = 30  --  a , b are operands  and + is called as operator
+
+ --> Javascripts Operators : There are 5 types of operators they are
+     
+          1.Arithematic operator :  + , - , /, % , *
+      
+          2.Assignment operator / compound operator: += , -= , /=, *=, %=
+          
+          3.Comparison operator : == , === ,<= , >= , < , >
+                
+                 -->  ==   -- double equals used to compare two values 
+                 --> === -- triple quals used for exact comparison checks the value and type of the data
+                            work same as AND operator
+                                 
+          4.Logical Operators : &&(AND) , ||(OR), !(NOT)
+              
+                && -- The both conditions must be true then only output is true
+                || -- atleast one condition must be true
+                ! -- Boolean reverese we use it for one condition
+        
+         5 . Increment / Decrement:  (++ / --)
