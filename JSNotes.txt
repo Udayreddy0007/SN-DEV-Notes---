@@ -124,6 +124,7 @@ JS can written in two ways
     --> Variable container which stores the type of data / Variable name which store the data
 
         ex:  employee = "uday";  --- varaible name = value / data;
+        
           
         -->Rules :
         -- Varaible name can be starts or declared with _ and $(excpet dollar symbols)
@@ -141,16 +142,86 @@ JS can written in two ways
 ----> Variable key words 
 
           there are 3b types of keywords in js
-           --let: let we can call it as block scope upadtion is posssible but redecalration of the value is not possible
+           --let: let we can call it as block scope upadation is posssible but redecalration of the value is not possible
               ex:  let num = 19;
-           --const : it is alsp a block scoped variable key words
-              ex: redecalration and updation 
+                       num = 18;
+           --const : it is also a block scoped variable key words
+                     redecalration and updation is not posssible
               const pi = 3.14;
+
               const max_speed = 120;
 
            --var: it is global scope variable keyword
+                   redeclaration and updation is posssible
                            
                            var value1 = 18;
                            var value2 = 19;
+
+
+--- Date: 10/09/26
+
+
+
+-->  Syntax for decalring the value or storing the data
+        
+        variable keyword varaiblename = data / type of data;
+
+        --  ex:
+                -- let marks = 90;
+                 console.log(marks);
+
+
+                -- const stdId = 2621;
+                 console.log(stdId);
+      
+                -- var name ="ajay";
+                    var  name ="uday";
+                   console.log(name);
+   
+   --> Operators :
+                   We use operators to performs calculations/condition checking 
+                    operator , operand
+                    operators are the symbols - + , - ,/ ,% , == ,===
+                    operand the values on which we gonna perform our operations
+                         ex:  10 + 2    -- 10 and 2 are operands and  + is operators
+
+           1. Arithematic operators - + , - , / , % , *
+           2.  Logical operations  - &&(AND) , ||(OR) , !(NOT) --
+                                    
+                                 -->  && -- when two conditions are true then onlt we get a true as output
+                                         if one condition is true and one false 
+                                          we will get false
+                                 --> || -- any one condition should be true
+                                   
+                                 -->  ! -- Boolean reverse
+                                         condition is a true 
+                                         it will print false
+                       
+
+
+           3. Assignment operators/ Compound operators- +=, -=, *=,  /=  , %= , **(exponantion)
+
+                  ex:        var marks = 12;
+                            marks +=3; // += --> marks +3 = 15
+c                           onsole.log(marks);
+V                           M2152:3 15
+                           
+
+           4. Comparision operators - == , ===, <= ,>= ,< ,>
+                             
+            == -->  it is used for comparing the two values
+                ex:
+                      a = 10;
+                      b= "10";
+                       console.log(a == b);  // true
+            === ---> it will check the data types   and values same like AND operator.
+                     a = 10 ;
+                     b ="10";
+                     console.log(a === b); // false 
+                     
+           5. increment/decrement  - ++ ,  --
+
+
+    
 
     
