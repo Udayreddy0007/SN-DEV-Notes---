@@ -156,5 +156,3 @@ JS can written in two ways
                            
                            var value1 = 18;
                            var value2 = 19;
-
-    
