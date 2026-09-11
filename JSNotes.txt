@@ -214,3 +214,111 @@ JS can written in two ways
                 ! -- Boolean reverese we use it for one condition
         
          5 . Increment / Decrement:  (++ / --)
+            
+            Increment(++) :   adding +1 to the original value
+                      ex :
+                             var  a = 10;
+                              a++; --> a + 1 = 10 + 1 = 11 // expected value
+                              console.log(a);
+
+            Decrement(--) : Subtracting -1 from the original value
+                  
+                     ex :
+                            var b = 12;
+                            b--;    --> b-- = 12 -1 = 11 // expected value
+                            console.log(b);
+      
+
+   -- Date : 11/09/26
+
+  --> Control statements/ Conditional statements:
+
+        -- It will allow to users to make decisions / conditions if the conditions becomes true then only
+         the code will be code executed.
+
+
+         1.if : 
+                 True block the code executed only when the condtion is True.
+         
+         syntax/structure:
+                   
+                 if(condition)  --- if given condition then it is excecuted
+                   {
+                                 // true statements
+                   }
+
+         2. if else :
+                     
+                   --> syntax
+                    
+                       if(true condition){
+                           // true statement
+                       }
+                       else
+                       {
+                         // fasle block
+                       }
+        
+         3. else if
+
+                 --> syntax:
+                               if(condition){
+                                 // statement   // true block
+                               }
+                               else if(condition)
+                               {
+                                  // statement 2  /// false
+                               }
+                               else{
+                                  // false statement
+                               }
+
+
+
+
+         4. Nested if / Multiple if statements:
+               
+               --> syntax:
+                        if(condition1){
+                           // staement 1
+                        }
+                        if(condition 2){
+                           //statement2
+                        }
+                        if(condition 3)
+                        {
+                           //statement 3
+                        }
+
+
+         5. nested else if :   
+            
+            --> syntax:
+                    if(condition1){
+                      // statement1
+                    }
+                    else if(condtion 2){
+                     //statement2
+                    }
+                     else if(condtion 3){
+                        // stetement 3
+                     }    
+                        else{
+                           // default statement / false statement
+                        }
+                
+         6. switch :
+                      syntax :
+
+                       switch(expression){
+                        case 1:
+                                // statemet 1
+                                break;
+                        case 2:
+                                // statement 2
+                                break;
+
+                                default:
+                                 //  default statement 
+                       }     
+
