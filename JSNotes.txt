@@ -29,9 +29,9 @@ Date - 08/09/26
                -- object - oriented language
                --    functions allows  reusable block of code
                -- case sensitive language 
-                   ex: uday and Uday since the name is same but treated as different
+                   ex: uday and Uday since the name is same but both are treated as different values
               -- for naming convention we use camelCase
-                 ex: studentInfo
+                 ex: studentInfo , stdMrks
 
               
                        
@@ -46,7 +46,7 @@ JS can written in two ways
 
        </script>
 
-    -->  External JS: we write logic/code inside a separate file and it should be stored with .js  extenstion
+    -->  External JS : we write logic/code inside a separate file and it should be stored with .js  extension
          
           <script src="scripts.js"></script>  -- src is source and scripts.js is file name you
           have to write your file name
@@ -141,10 +141,11 @@ JS can written in two ways
 
 ----> Variable key words 
 
-          there are 3b types of keywords in js
+          there are 3 types of keywords in js
            --let: let we can call it as block scope upadtion is posssible but redecalration of the value is not possible
               ex:  let num = 19;
                        num = 18;
+
            --const : it is also a block scoped variable key words
                      redecalration and updation is not posssible
               const pi = 3.14;
@@ -157,7 +158,7 @@ JS can written in two ways
                            var value1 = 18;
                            var value2 = 19;
 
- --> Date : 10/09/26
+ -->  Date : 10/09/26
 
      ex:  let,const,var
 
@@ -184,7 +185,7 @@ JS can written in two ways
                                    
    --> Operators: this are basically used to perform calculations/ checking the conditions 
           
-           --be fore we begin lets understand operators and operands
+           --before we begin lets understand operators and operands
      
            -- operator : it is symbol defines what   operations  to be performed
                ex: + , - ,/ , % , *
@@ -212,111 +213,4 @@ JS can written in two ways
                 || -- atleast one condition must be true
                 ! -- Boolean reverese we use it for one condition
         
-         5 . Increment / Decrement:  (++ / --) : 
-            
-            Increment(++) :   adding +1 to the original value
-                      ex :
-                             var  a = 10;
-                              a++; --> a + 1 = 10 + 1 = 11 // expected value
-                              console.log(a);
-
-            Decrement(--) : Subtracting -1 from the original value
-                  
-                     ex :
-                            var b = 12;
-                            b--;    --> b-- = 12 -1 = 11 // expected value
-                            console.log(b);
-      
--- Date : 11/09/26
-
-  --> Control statements/ Conditional statements:
-
-        -- It will allow to users to make decisions / conditions if the conditions becomes true then only
-         the code will be code executed.
-
-
-         1.if : 
-                 True block the code executed only when the condtion is True.
-         
-         syntax/structure:
-                   
-                 if(condition)  --- if given condition then it is excecuted
-                   {
-                                 // true statements
-                   }
-
-         2. if else :
-                     
-                   --> syntax
-                    
-                       if(true condition){
-                           // true statement
-                       }
-                       else
-                       {
-                         // fasle block
-                       }
-        
-         3. else if
-
-                 --> syntax:
-                               if(condition){
-                                 // statement   // true block
-                               }
-                               else if(condition)
-                               {
-                                  // statement 2  /// false
-                               }
-                               else{
-                                  // false statement
-                               }
-
-
-
-
-         4. Nested if / Multiple if statements:
-               
-               --> syntax:
-                        if(condition1){
-                           // staement 1
-                        }
-                        if(condition 2){
-                           //statement2
-                        }
-                        if(condition 3)
-                        {
-                           //statement 3
-                        }
-
-
-         5. nested else if :   
-            
-            --> syntax:
-                    if(condition1){
-                      // statement1
-                    }
-                    else if(condtion 2){
-                     //statement2
-                    }
-                     else if(condtion 3){
-                        // stetement 3
-                     }    
-                        else{
-                           // default statement / false statement
-                        }
-                
-         6. switch :
-                      syntax :
-
-                       switch(expression){
-                        case 1:
-                                // statemet 1
-                                break;
-                        case 2:
-                                // statement 2
-                                break;
-
-                                default:
-                                 //  default statement 
-                       }     
-
+         5 . Increment / Decrement:  (++ / --)
