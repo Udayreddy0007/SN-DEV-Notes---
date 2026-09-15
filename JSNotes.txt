@@ -199,7 +199,7 @@ JS can written in two ways
      
           1.Arithematic operator :  + , - , /, % , *
       
-          2.Assignment operator / compound operator: += , -= , /=, *=, %=
+          2.Assignment operator / compound operator: += , -= , /=, *=, %= ,++,--
           
           3.Comparison operator : == , === ,<= , >= , < , > ,!=
                 
@@ -322,3 +322,54 @@ JS can written in two ways
                                  //  default statement 
                        }     
 
+
+
+--> Date: 15/09/26
+    
+    --> Looping Control statements / Iterative Control statements:
+      
+       -- Iterating a single statement multiple times until the conditions are  met
+
+       -- In JS We gonna learn 3 looping control satements they are 
+         
+         1 . for loop : 
+                          -- The loop will execute multiple time / iterate based  on the given conditions
+
+                          syntax:
+                                    for(var i=0; i<=something int value/ var.length ; i++)
+                                      
+                                    {
+                                                 
+                                    }
+
+                                    // i = 0; -- intial value , i = decalarition varaiable name
+                                      // i <= / >= -- we gonna write stopping condition
+                                      // i++ -- increase the step by 1
+                          ex :
+                               for(var i=1; i<=10; i++){
+                                 console.log(i);
+                               }
+                               i=1 -- 1<=10 -- 1+1 = 2
+                               i = 2 -- 2<=10 -- 2+1 = 3
+
+         2. While loop : it will execute the code when the condition is True
+                        
+                        syntax : 
+                           var i =0;
+                           while(i<=some value)
+                           {
+                               console.log();
+                               i++;
+                           }
+                                          
+
+         3. do While loop :
+                             It will execute code once and check the conditions at last
+
+                             syntax:
+                                       do{
+                                          console.log();
+                                          i++;
+                                       }while(i<=0);
+
+         ---> Break , continue
