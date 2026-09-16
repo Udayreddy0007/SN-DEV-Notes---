@@ -372,4 +372,54 @@ JS can written in two ways
                                           i++;
                                        }while(i<=0);
 
-         ---> Break , continue
+      ---> Break , continue
+
+ --> Date : 16/9/26
+
+         -- Break :  Break will tell to stop a condition 
+               
+               syntax: break;
+
+         -- continue : this will tell skip the condition
+              
+              syntax: continue;
+
+   --> Notification Keywords in JS
+        
+        1.Alert (alert) :  sending some notification when some events happens
+               
+               alert("welcome to js");
+       
+       2.Confirm   : same as alert it contains ok and cancel
+                
+                 confirm("please close the console");
+
+      3.Prompt : it will display a question / dialog box where user as to provide an answer
+            
+            prompt ("What is your name ?");
+                      
+
+---> Functions : a block of reusable code  / it is used to divide the complex program into small and reusable blocks
+
+    syntax : 
+                function functionName(pass parameters ){
+
+                }
+                  fuctionName(value);
+
+
+ 1. Function without parameters
+
+                       function msg()
+                       {
+                           alert("We are learning funcions");
+                      }
+                       msg(); -- function is called
+
+2.Function with name parameter
+
+                      function stdNames(name){
+                         console.log(name);
+                         }
+                       stdNames("uday");
+                   stdNames("syed");
