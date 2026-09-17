@@ -423,3 +423,46 @@ JS can written in two ways
                          }
                        stdNames("uday");
                    stdNames("syed");
+
+
+--> Date:17/09/26
+
+   --> Function with multiple parameters
+
+           function variablename (par1 , par2)
+            {
+               console.log(par1 + par 2);
+            }
+            variablename(parValue1,parValue2);
+
+---> Functions returntype - It does something and return something
+
+           function variableName(parameters){
+            return a+b;
+           }
+           var variablename2 = variablename(passing the parameters);
+           console.log(variablename2);
+
+
+---> Object in JS : it is the real instance of the class
+     
+               syntax: 
+                           variable keyword object name = {
+                           property1;
+                           property2;
+                          }
+                          objectname.property;
+
+---> Functions v/s objects
+
+   --> reusable block of code
+    --> real instance of a class / real things which we can see.
+
+    syntax :
+                       object {
+                        properties
+                        functionname: function(){ // method
+                           console.log(this.property name)
+                        }
+                       };   
+ --> this is keyword refers to the objectname only used when a method is created  (function)
