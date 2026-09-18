@@ -466,3 +466,19 @@ JS can written in two ways
                         }
                        };   
  --> this is keyword refers to the objectname only used when a method is created  (function)
+
+ --> Date : 18/9/26
+
+ --> Array : group of similar set of data
+
+   symbol of [];
+   
+   ex :
+        var name = ["uday","meghana","manjula","omesh"];
+        console.log(name.length);
+   
+   index - specify the position of an element(value)
+    
+    ex : name = ["uday" , "meghana"]
+                    0        1
+      console.log(name[0])

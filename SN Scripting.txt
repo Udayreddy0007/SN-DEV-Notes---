@@ -1,0 +1,22 @@
+ --> Date : 18/09/26
+
+  Client side - client scripts
+   
+   -- Navigate > system definition > clients script 
+
+   --> There are four types of client Scripts
+   
+    1.onLoad() (Create , read,update):  when the form load if we want to make fields mandatory , disable  , setvalue 
+
+    2.onChange()(update) : when we change a field if you want to populate a field , hide a field ,
+                   update any value.
+    
+    3.onSubmit() (update, read): when the record get submitted if you want to do anything while submitting (restricting the
+                   user without submitting the form)
+
+    4.oncellEdit()(update) : when a user want to chage / update the values of certain from the list view 
+                     we gonna use on celledit.
+
+  Server side  - Scripts-Background
+
+  - Navigate > system definition >Scripts-Background
