@@ -8,6 +8,10 @@
    
     1.onLoad() (Create , read,update):  when the form load if we want to make fields mandatory , disable  , setvalue 
 
+       addInfomsg() -- add a msg on the form.
+       setValue - it ads the value to the  fields
+       setMandatory()-to make any field mandatory 
+
     2.onChange()(update) : when we change a field if you want to populate a field , hide a field ,
                    update any value.
     
