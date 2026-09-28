@@ -24,3 +24,85 @@
   Server side  - Scripts-Background
 
   - Navigate > system definition >Scripts-Background
+
+
+  --Date : 24/9/26
+
+  User story : When a user logged into the platoform and opens the incident record i want to fill the caller field with the logged in user
+
+  Script onLoad() :
+
+                              function onLoad() 
+                              {
+                               g_form.setValue("caller_id",g_user.userID);
+   
+                              } 
+
+ User Story 1: When Admin changes the state choices i want to populate/display a msg for every change
+
+ Script onChange() :
+                  
+                  var st = g_form.getValue("state");
+                  if(st=="1"){
+                  g_form.addInfoMessage("The state is in the new state");
+                  }
+                  else if(st=="2"){
+                  	g_form.addInfoMessage("The state has been changed to In Progress");
+                  }
+                  else if(st=="3"){
+                  	g_form.addInfoMessage("The state has been changed to On Hold");
+                  }
+                  else if(st=="6"){
+                  	g_form.addInfoMessage("The state has been changed to resolved and user has to provide resolved notes");
+                  }
+                  else if(st=="7"){
+                  	g_form.addInfoMessage("The state has been changed to Closed  since the issue has been resolved");
+                  }
+                  else if(st=="8"){
+                  	g_form.addInfoMessage("The state has been changed to Canceled because that inc doesnt contains required info");
+                  }
+                  else{
+                  	g_form.addInfoMessage("The state value is none");
+                  }
+
+   User story 2 :
+             When the user changes the impact value to on critical i want to display a field on critical reason
+             Note : create a choice in the impact custom choice and create a field for that choice and please dont add it to the form
+      
+   Script onChange() : 
+
+
+
+   ---> Date : 28/9/26
+
+
+
+   --- Find the line  -- TASK 
+
+
+                  function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+                  if (isLoading || newValue === '') {
+                     return;
+                  }
+               
+                  //Type appropriate comment here, and begin script below
+
+
+                     g_form.getReference('caller_id',checkDept);
+                     function checkDept(caller){
+	                  if(caller.department.name=="IT"){
+	                  g_form.addInfoMessage("The selcted caller belongs to the IT Department");
+	                  }
+	                  else{
+	                  	g_form.addInfoMessage("The selected caller doesnt belongs to IT Department");
+	                  }
+                     }
+
+   
+}
+
+
+---> Server Side Scripts / Script - background
+
+    
+                             
