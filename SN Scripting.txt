@@ -104,5 +104,47 @@
 
 ---> Server Side Scripts / Script - background
 
-    
+
+   -->Date : 29/9/26
+
+
+   --> Client side  --- browser lvl , form lvl , list lvl - CRUD/CRED
+
+   ---> Server side -- to fetch the data servers -- DML Operation (Data manpulation language)
+       
+       -->API - application program interface  - request , response
+
+       -->Glide API - Gliderecord('tablename') , GlideAggregate('tablename')
+       --> insert(); - allow to user to write a script and create new records
+       -->update(); - allow the user to update records
+       --->Delete(); - delete the records 
+       --->Query(); -- fetching the data of a record / multiple records
+       -->Rollback(); -- undo 
+
+
+       --> Gliderecord -- 
+         syntax: 
+                        variablekeywrd variableName = new Gliderecord('tablename');
+
+         1.insert();
+                          
+                          syntax : 
+                                           variablekeywrd variableName = new Gliderecord('tablename');
+                                           variableName.initialize();
+                                           variableName.field ="value";
+                                           variableName.insert();
+                 
+                 --> Printing statement in server side gs(glide system) 
+                  gs.info() , gs.print()
+
+
+
+
+                  ex:   var gr = new GlideRecord('incident');
+                        gr.initialize();
+                        gr.short_description="The incident is created throught the server side ";
+                        gr.description="The server script is working";
+                        gr.insert();
+                        gs.info("The record no is : " + gr.number);
+
                              
