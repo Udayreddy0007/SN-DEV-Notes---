@@ -147,4 +147,55 @@
                         gr.insert();
                         gs.info("The record no is : " + gr.number);
 
-                             
+
+     --> Date : 30/9/26
+
+     ---> User case : As an admin wants to create multiple record on his custom table and incident table 
+                     in each and record he/she  want to fill the shortdescription , description , category, state
+
+            ex :   one way
+
+                   for(var i=0; i<=50; i++){
+                     var incRec = new GlideRecord('incident');
+                     incRec.initialize();
+                     incRec.short_description="value";
+                     incRec.description="value2";
+                     incRec.category="1";
+                     incRec.state="1";
+                     incRec.insert();
+                   }  
+
+                    Second way recommended 
+
+                    var incRec = new GlideRecord('incident');
+                     for(var i=0; i<=50; i++){
+                     incRec.initialize();
+                     incRec.short_description="value";
+                     incRec.description="value2";
+                     incRec.category="1";
+                     incRec.state="1";
+                     incRec.insert();
+                   }  
+
+
+   NOTE: in the second method/way dont write the initialize outside the for loop 
+         cuz if you write the script gonna take the first record as a reference and it gonna create 
+         multiple records with the same numbers.
+
+   0--> Update(); -- by using this dml operation we can update the single record and also multiple records
+
+
+   syntax : single record
+                
+                var gr = new GlideRecord('incident');
+                gr.get("sys_id","sys_idvalue");
+                gr.fieldname="value";
+                gr.update();
+
+
+
+
+
+
+
+
