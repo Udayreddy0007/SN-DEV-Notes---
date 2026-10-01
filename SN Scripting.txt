@@ -193,9 +193,37 @@
                 gr.update();
 
 
+---> Date : 1-10-26
+
+   --> User case : I want to Update  the assigned to / caller field with logged in user
+
+       solution : 
+                    var incRec = new GlideRecord('incident');
+                     if(incRec.get("number","INC0000002")){
+                      incRec.caller_id = gs.getUserID();
+                      incRec.update();
+                     }
+                     
+   --->User case 2 : I want to Update  the assigned to / caller field with different  user
+
+   solution : 
+                        var incRec = new GlideRecord('incident');
+                        if(incRec.get("number","INC0000002")){
+                         incRec.caller_id ="ce826bf03710200044e0bfc8bcbe5d79"; // we can pass name in th place of sys_id but not recommended
+                         incRec.update();
+                        }
+
+
+      NOTE : PLEASE USE sys_idvalue DONT PASS NAME
 
 
 
+
+      ---> Updating the multiple records by using the addQuery method
+
+      syntax : 
+                    var gr = new GlideRecord ('tablename');
+                    gr.addQuery
 
 
 
